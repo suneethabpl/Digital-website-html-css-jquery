@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width,initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bookappointment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
+</head>
+
+
+<div class="form-container">
+    <div class="pop-up form-hide">
+        <h4>Book Your Appointment</h4>
+        <form class="form form-single">
+            <ul>
+                <li>
+                    <div class="form-group">
+                        <div class="prepend-icon">
+                            <input id="name" class="form-control" name="name" placeholder="Name" type="text">
+                            <i class="fas fa-user"></i> </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="form-group">
+                        <div class="prepend-icon">
+                            <input id="email" class="form-control" name="email" placeholder="Email" type="text">
+                            <i class="far fa-envelope"></i> </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="form-group">
+                        <div class="prepend-icon">
+                            <input id="mobile" class="form-control" name="mobile" placeholder="Mobile Number"
+                                type="text">
+                            <i class="fa fa-mobile" aria-hidden="true"></i> </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="form-group">
+                        <div class="prepend-icon">
+                            <textarea id="message" class="form-control" name="message" placeholder="Message"></textarea>
+                            <i class="far fa-envelope"></i> </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="form-group">
+                        <div class="captcha-wrapper">
+                            <div class="captcha-text">Arrange in order</div>
+                            <div class="captcha-reload"><a href="javascript:void(0);" id="reloadCaptcha"><img
+                                        src="images/icon-reload.png" alt="digital"></a></div>
+                            <div class="captcha-inner">
+                                <div class="captcha-word"> <span id="word-contact">0DCF</span> </div>
+                                <div class="captcha-sortable">
+                                    <ul id="sortable-contact" class="ui-sortable">
+                                        <li>D</li>
+                                        <li>0</li>
+                                        <li>F</li>
+                                        <li>C</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /captcha-inner -->
+                            <div class="clear"></div>
+                        </div>
+                        <input type="hidden" name="captcha" id="captcha" value="">
+                        <!-- /captcha-wrapper -->
+                        <div class="clear"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="">
+                        <input type="hidden" name="appointment_date" id="appointment_date" value="">
+                        <button class="btn" type="submit" id="sendContact"><i class="fa fa-chevron-circle-right"
+                                aria-hidden="true"></i>Submit</button>
+                    </div>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </form>
+        <button type="button" class="btn-close">×</button>
+    </div>
+
+</div>
+
+
+
+</body>
+
+</html>

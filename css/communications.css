@@ -1,0 +1,25 @@
+a.head-btn {
+  padding: 18px 0px 17px;
+  width: 204px;
+}
+.single-div,
+.single-right-div {
+  width: 44%;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+.inner-channels-4 {
+  float: left;
+}
+.sales-left, .sales-left h2, .sales-left p {
+    text-align: left!important;
+}
+.inner-title p {
+    line-height: 26px;
+    width: 100%;
+    margin: 0 auto;
+}
+.inner-title h2 {
+    font-size: 20px;
+    margin-top: 26px;
+}

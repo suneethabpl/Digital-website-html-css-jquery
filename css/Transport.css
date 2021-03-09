@@ -1,0 +1,23 @@
+.inner-support-4 ul li {
+    width: 43%;
+    margin: 0 3% 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.payment-mode{
+    width:auto;
+}
+
+.campaign-img, .payment ul li {
+    float: left;
+    width: 50%;
+}
+
+.m-t-30 {
+    margin-top: 30px;
+}
+.paymentmode-img {
+    margin-top: 50px;
+    display: block;
+    padding: 0 20px;
+}

@@ -1,0 +1,268 @@
+.menu-support {
+  background-color: #30b39c;
+}
+.page-content {
+  width: 100%;
+  background-color: #fff;
+}
+.page-content,
+.row {
+  padding: 140px 0;
+}
+.pageWidth {
+  max-width: 1160px;
+  margin: 0 auto;
+  width: 100%;
+}
+.input_search {
+  margin: 0 auto;
+  width: 90%;
+  padding-bottom: 10px;
+  position: relative;
+  top: 80px;
+}
+.input_search input {
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  position: absolute;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+input,
+label,
+li,
+p,
+span,
+textarea {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+  list-style: none;
+}
+.input_search a {
+  padding: 10px 26px;
+  border: 1px solid #30b39c;
+  background-color: #30b39c;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.input_search a i {
+  font-size: 16px;
+  color: #fff;
+  padding-right: 10px;
+}
+.input_search a span {
+  color: #fff;
+  font-size: 20px;
+}
+
+.appointment-div h4,
+.input_search a,
+.input_search a span,
+.login-pannel a,
+a.inner-btn,
+button.inner-btn {
+  font-family: Rajdhani-Semibold;
+}
+
+.inner-support-4 {
+  padding-top: 40px;
+}
+.inner-support-4 ul li {
+  width: 43%;
+  margin: 0 3% 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+/* .payment-mode {
+  margin-top: 100px;
+} */
+.left-img {
+  width: auto;
+}
+.payment-img {
+  float: left;
+  width: 20%;
+}
+.left-img img {
+  margin-right: 20px;
+  width: 90px;
+  height: 90px;
+  margin-top: 27px;
+}
+.right-text {
+  width: 75%;
+}
+.payment-content {
+  float: left;
+  width: 76%;
+  margin-left: 10px;
+}
+.inner-page h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #555;
+}
+.channel-icon,
+.inner-page h3 {
+  margin-bottom: 10px;
+}
+.inner-page p {
+  color: #444;
+}
+
+.bg-light {
+  background: #f5f5f5;
+}
+.page-content,
+.row {
+  padding: 40px 0;
+}
+.row:after,
+.row:before {
+  display: block;
+}
+.pageWidth {
+  max-width: 1160px;
+  margin: 0 auto;
+  width: 100%;
+}
+.p-b-10 {
+  padding-bottom: 10px;
+}
+.btn,
+.popup-btn-cls a,
+.table tr td,
+.text-center {
+  text-align: center;
+}
+.text-17 {
+  font-size: 17px;
+}
+.list-support li {
+  background: #fff;
+  -webkit-box-shadow: 0 0 3px #d0d0d0;
+  -moz-box-shadow: 0 0 3px #d0d0d0;
+  box-shadow: 0 0 3px #d0d0d0;
+  float: left;
+  margin: 1.2%;
+  min-height: 65px;
+  width: 22.5%;
+  text-align: center;
+}
+.list-support li a {
+  display: table;
+  height: 175px;
+  width: 90%;
+  padding: 0 5%;
+  position: relative;
+}
+.list-support li a:hover:before {
+  transform: scaleY(1);
+}
+.list-support li a:before {
+  background: #f2b636;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: scaleY(0);
+  transform-origin: 0 50% 0;
+  transition: all ease 0.3s;
+}
+
+.appoint-demo:after,
+.appoint-demo:before,
+.bottom-description a:first-child:before,
+.digital_options ul li a:after,
+.icon-radius:after,
+.list-support li a:before,
+.pop-up h4::after,
+.right-color p:before,
+.time-select::before,
+.time-select:after {
+  content: "";
+}
+.list-support li div {
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  z-index: 2;
+}
+.list-support li h2 {
+  margin-bottom: 20px;
+  color: #555;
+}
+.list-support li h2,
+.list-support li img {
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+.list-support li h2,
+.list-support li img {
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+.payementmode {
+  margin-top: 100px;
+}
+.inner-support-4 {
+  padding-top: 120px;
+}
+/* start support.html media queries */
+@media (max-width: 767px) {
+  .input_search {
+    width: 100%;
+    float: none;
+  }
+  .input_search a {
+    padding: 13px 15px;
+  }
+  .right-text {
+    width: 67%;
+    margin-left: 0;
+  }
+  .left-img img {
+    margin-right: 15px;
+  }
+  .inner-support-4 {
+    padding-top: 45px;
+  }
+  .inner-support-4 ul li {
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+  }
+  .left-img {
+    width: auto;
+  }
+  .payementmodetop {
+    margin-top: 80px;
+  }
+  .list-support li {
+    width: 47%;
+  }
+  .list-support li a {
+    height: 100px;
+  }
+  .list-support li h2 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  #page-bottom {
+    margin-top: 400px;
+  }
+  .copyrights li {
+    float: left;
+  }
+}

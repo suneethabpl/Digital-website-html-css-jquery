@@ -1,0 +1,72 @@
+
+.inner-support-4 {
+  padding-top: 40px;
+}
+.inner-support-4 ul li {
+  width: 43%;
+  margin: 0 3% 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+.payment-mode {
+  margin-top: 30px;
+}
+.payment-img {
+  float: left;
+  width: 20%;
+}
+.payment-img img {
+  margin-right: 20px;
+  width: 90px;
+  height: 90px;
+}
+
+.payment-content {
+  float: left;
+  width: 76%;
+  margin-left: 10px;
+}
+.inner-page h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #555;
+}
+.inner-page h3 {
+  margin-bottom: 10px;
+}
+.inner-page p {
+  color: #444;
+}
+.inner-title p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+  list-style: none;
+}
+
+
+.payment ul li {
+  float: left;
+  width: 50%;
+}
+.text-left {
+  text-align: left;
+}
+
+.inner-title p {
+  line-height: 26px;
+  width: 80%;
+  margin: 0;
+}
+.salesleft-img {
+  margin-top: 20px;
+}
+
+ul li.adj-width {
+  float: right;
+  width: 42%;
+}
+a.head-btn {
+  padding: 18px 0px 17px;
+  width: 204px;
+}

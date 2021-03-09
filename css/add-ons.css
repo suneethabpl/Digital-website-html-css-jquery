@@ -1,0 +1,50 @@
+.back-color {
+    background-color: #f8f8f8!important;
+}
+.single-div, .single-right-div {
+    width: 44%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.sales-left {
+    width: 38%;
+    float: left;
+    margin-right: 2%;
+}
+.sales-left, .sales-left h2, .sales-left p {
+    text-align: left!important;
+}
+.inner-title h2 {
+    font-size: 30px;
+    color: #f83941;
+    margin-bottom: 14px;
+    font-weight: 300;
+}
+.insights p {
+    width: 100%;
+}
+.single-div, .single-right-div {
+    width: 44%;
+    margin-right: 3%;
+    margin-left: 3%;
+    float: left;
+}
+
+.m-t-20 {
+    margin-top: 20px;
+}
+.paymentmode-img {
+    display: block;
+    padding: 0 20px;
+}
+.paymentmode-img>img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+.right-d {
+    float: right!important;
+}

@@ -1,0 +1,241 @@
+.menu-appointment {
+  background-color: #3fa3d4;
+}
+
+
+.app {
+  text-align: left;
+}
+.inner-title h2 {
+  font-size: 28px;
+  color: #f83941;
+  margin-bottom: 14px;
+  font-weight: 300;
+  margin-top: 80px;
+}
+.appointment-div {
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 0 40px;
+}
+.appointment-div h4 {
+  font-size: 24px;
+  color: #2a89cd;
+  text-align: center;
+  padding: 20px 0;
+}
+.appointment-div h4,
+.input_search a,
+.input_search a span,
+.login-pannel a,
+a.inner-btn,
+button.inner-btn {
+  font-family: Rajdhani-Semibold;
+}
+.appointment-div h4 i {
+  color: #2a89cd;
+  font-size: 20px;
+  padding: 0 20px;
+  cursor: pointer;
+}
+.appointment-div ul li {
+  background: #fff;
+  float: left;
+  border: 1px solid #ddd;
+  width: 16.5%;
+  margin-left: -1px;
+  margin-bottom: -1px;
+}
+a,
+input,
+label,
+li,
+p,
+span,
+textarea {
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+}
+.time-select {
+  display: table-cell;
+  height: 166px;
+  width: 229px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+#boxscroll3,
+.about-cols-main,
+.error-page,
+.error-table,
+.pagination ul,
+.sales-head h3,
+.time-select {
+  overflow: hidden;
+}
+.time-select:hover::before {
+  transform: scaleY(1);
+}
+.not-avail:hover::before {
+  transform: scaleY(0);
+}
+.time-select::before {
+  background: #ddd !important;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transform-origin: 50% 0 0;
+  transition: all 0.3s ease 0s;
+  z-index: -1;
+  transform: scaleY(0);
+}
+.time-select::before,
+.time-select:after {
+  position: absolute;
+}
+
+.appoint-demo:after,
+.appoint-demo:before,
+.bottom-description a:first-child:before,
+.digital_options ul li a:after,
+.icon-radius:after,
+.list-support li a:before,
+.pop-up h4::after,
+.right-color p:before,
+.time-select::before,
+.time-select:after {
+  content: "";
+}
+.time-select:after {
+  height: 40px;
+  transform: rotate(135deg);
+  width: 60px;
+  background-color: #2a89cd;
+  bottom: -18px;
+  right: -23px;
+}
+.time-select::before,
+.time-select:after {
+  position: absolute;
+}
+.appoint-demo:after,
+.appoint-demo:before,
+.bottom-description a:first-child:before,
+.digital_options ul li a:after,
+.icon-radius:after,
+.list-support li a:before,
+.pop-up h4::after,
+.right-color p:before,
+.time-select::before,
+.time-select:after {
+  content: "";
+}
+.not-avail:after {
+  background-color: #c2c2c2;
+}
+.time-select h5 {
+  padding-bottom: 5px;
+  padding-top: 0;
+  font-size: 25px;
+  color: #2a89cd;
+}
+.time-select span {
+  color: #2a89cd;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+}
+.not-avail h5,
+.not-avail span {
+  color: #c2c2c2 !important;
+}
+.appoint-foot p {
+  float: left;
+}
+.inner-page p {
+  color: #444;
+}
+input,
+label,
+li,
+p,
+span,
+textarea {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+  list-style: none;
+}
+.right-color {
+  float: right;
+}
+
+.right-color p {
+  display: inline-block;
+  position: relative;
+  padding-left: 45px;
+}
+.appoint-foot p {
+  float: left;
+}
+.right-color p:before {
+  background-color: #2a89cd;
+  height: 12px;
+  left: 20px;
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+p.not-avail:before {
+  background-color: #c2c2c2;
+}
+.not-avail:after {
+  background-color: #c2c2c2;
+}
+
+/* start appointment.html media queries */
+@media (max-width: 767px) {
+.inner-title h2 {
+  font-size: 28px ;
+  margin-bottom: 5px;
+}
+.appointment-div h4 {
+  font-size: 14px ;
+}
+.appointment-div h4 i {
+  padding: 0 7px ;
+}
+.appointment-div {
+  padding: 0 20px;
+}
+.appointment-div ul li {
+  width: 48% ;
+}
+.appoint-foot p {
+  margin: 0;
+  padding: 15px;
+}
+.appoint-foot p,
+.right-color {
+  float: none;
+}
+.right-color p:before {
+  background-color: #2a89cd;
+  height: 12px;
+  left: -9px;
+  position: absolute;
+  top: 19px;
+  width: 12px;
+}
+p.not-avail:before {
+  background-color: #c2c2c2;
+}
+}

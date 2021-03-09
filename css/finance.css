@@ -1,0 +1,57 @@
+.campaign-img {
+  background-image: url(../images/campaign.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 381px;
+}
+.campaign-img,
+.payment ul li {
+  float: left;
+  width: 50%;
+}
+.page-content.inner-icon-3 {
+  width: 50%;
+  float: right;
+}
+.inner-icon-3 ul li {
+  float: left;
+  margin: 13px 3% 0;
+  text-align: center;
+  width: 44%;
+}
+.campaign-options img {
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin: 0 auto 15px;
+}
+.inner-page h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #555;
+}
+.p-b-10 {
+  padding-bottom: 27px;
+}
+/* .page-top {
+    border-top: 1px solid #d2dde5;
+} */
+/* for 4th section */
+.inner-title p {
+  line-height: 26px;
+  width: 80%;
+  margin: 0 auto;
+}
+.paymentmode-img {
+  margin-top: 50px;
+  display: block;
+  padding: 0 20px;
+}
+.right-d {
+  float: right !important;
+}
+a.head-btn {
+    padding: 18px 0px 17px;
+    width: 204px;
+}
