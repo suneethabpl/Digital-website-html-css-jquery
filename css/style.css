@@ -304,7 +304,10 @@ nav {
   background-color: #444;
 }
 
-
+/* .social-icon {
+  width: 50px;
+  height: 50px;
+} */
 .social-media ul li.facebook a:hover {
   background-color: #3b5998;
 }
@@ -359,6 +362,7 @@ nav {
     font-size: 30px !important;
     line-height: 30px !important;
     margin-bottom: 10px !important;
+    /* margin-bottom: 15px; */
   }
   .analytics-sec-mid img,
   .analytics-sec-mid p {
@@ -607,7 +611,7 @@ nav {
     content: "\f068";
     font-weight: 600;
   }
-
+  /* index.html media queries end */
   
   
 }
@@ -1429,7 +1433,7 @@ body {
   color: #828282;
 }
 
-
+/*last qoute/line div*/
 
 .bottom-quote h2 {
   color: #888;
@@ -1442,4 +1446,4 @@ body {
   background: #f5f5f5;
   text-align: center;
 }
-
+/*last qoute/line div*/

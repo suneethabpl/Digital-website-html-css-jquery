@@ -1,11 +1,18 @@
-
+ /* .page-content {
+  width: 100% !important;
+  background-color: #fff !important;
+} */
 .coming-soon { 
   padding: 40px 0 0 !important;
 }
 .background-desk {
   background: url(../images/bg-desk.png) center bottom  repeat-x;
 }
-
+/* .pageWidth {
+  max-width: 1160px;
+  margin: 0 auto;
+  width: 100%;
+} */
 h1 {
     font-size: 20px;
     padding-top: 60px;
@@ -15,7 +22,10 @@ h1 {
   text-align: center;
 }
 
-
+/* img {
+  max-width: 100%;
+  height: auto;
+} */
 
 .coming-soon img {
   display: block;

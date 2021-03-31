@@ -1,3 +1,17 @@
+/* .inner-title{
+    text-align: center;
+}
+.inner-title h2 {
+    font-size: 30px;
+    color: #f83941;
+    margin-bottom: 14px;
+    font-weight: 300;
+} */
+/* .inner-title p {
+    line-height: 26px;
+    width: 80%;
+    margin: 0 auto;
+} */
 
 .inner-support-4 {
   padding-top: 40px;
@@ -11,6 +25,9 @@
 .payment-mode {
   margin-top: 30px;
 }
+/* .left-img {
+    width: auto;
+} */
 .payment-img {
   float: left;
   width: 20%;
@@ -44,6 +61,7 @@
   list-style: none;
 }
 
+/* gradebooksection */
 
 .payment ul li {
   float: left;
@@ -52,7 +70,12 @@
 .text-left {
   text-align: left;
 }
-
+/* .inner-title h2 {
+    font-size: 30px;
+    color: #f83941;
+    margin-bottom: 14px;
+    font-weight: 300;
+} */
 .inner-title p {
   line-height: 26px;
   width: 80%;
@@ -62,6 +85,7 @@
   margin-top: 20px;
 }
 
+/* reportcardsection */
 ul li.adj-width {
   float: right;
   width: 42%;

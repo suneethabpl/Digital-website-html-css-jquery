@@ -2,7 +2,14 @@
   background-color: #3fa3d4;
 }
 
-
+/* .page-content {
+  width: 100%;
+  background-color: #fff;
+}
+.page-content,
+.row {
+  padding: 40px 0;
+} */
 .app {
   text-align: left;
 }

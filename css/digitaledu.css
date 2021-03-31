@@ -173,7 +173,13 @@ a.head-btn:hover:after {
   color: #f47564;
 }
 
-
+/* .page-content {
+    width: 100%;
+    background-color: #FFF;
+}
+.page-content, .row {
+    padding: 40px 0;
+} */
 #btn-scrollup,
 .bottom-quote,
 .channel-main,
@@ -266,6 +272,7 @@ textarea {
   line-height: 26px;
   width: 80%;
   margin: 0 auto;
+  /* margin-left: 0; */
 }
 .fontandmargin h2 {
   font-size: 25px;
@@ -294,7 +301,10 @@ textarea {
   color: #333;
   list-style: none;
 }
-
+/* .sales-head {
+    float: left;
+    width: 100%;
+} */
 .sales-head img {
   width: 34px;
   height: 34px;
@@ -321,7 +331,7 @@ textarea {
 .resp-menu, .strip_menu {
   display:none;
 }
-
+/*start media queries for digital edu*/
 @media (max-width: 767px) {
   .title-section ul li h2 {
     font-size: 19px;
